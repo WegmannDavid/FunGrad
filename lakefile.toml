@@ -1,0 +1,10 @@
+name = "FunGrad"
+version = "0.1.0"
+defaultTargets = ["fungrad"]
+
+[[lean_lib]]
+name = "FunGrad"
+
+[[lean_exe]]
+name = "fungrad"
+root = "Main"
