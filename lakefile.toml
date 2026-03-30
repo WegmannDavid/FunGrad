@@ -8,3 +8,8 @@ name = "FunGrad"
 [[lean_exe]]
 name = "fungrad"
 root = "Main"
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+git = "https://github.com/leanprover-community/mathlib4"
