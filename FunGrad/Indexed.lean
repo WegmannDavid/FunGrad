@@ -1,6 +1,6 @@
 
 class Index (I : Type) : Type 1 where
-  iter : (I → α → α) → α → α
+  iter {α : Type} : (I → α → α) → α → α
 
 def sum [Index I] [Zero α] [Add α] (f : I → α) : α :=
   Index.iter (λ i a => a + f i) 0
