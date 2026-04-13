@@ -69,4 +69,4 @@ def DiffMap.comp {n m k : ℕ} (g : DiffMap m k) (f : DiffMap n m) : DiffMap n k
 
 def DiffMap.id {n} : DiffMap n n where
   f x := x
-  deriv x := sorry -- zero
+  deriv x := sorry
